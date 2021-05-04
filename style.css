@@ -1,0 +1,23 @@
+#img1{
+	border: 9px ridge #ff0000;
+	border-radius: 30px;
+	margin: 20px
+}
+#img2{
+	border: 9px dashed darkblue;
+	border-radius: 30px;
+	margin: 20px;
+}
+img{
+	transition: transform .2s;
+}
+img:hover{
+	transform: scale(0.9);
+}
+body{
+	background: linear-gradient(green,blue);
+	text-align: center;
+	font-family: fantasy;
+	letter-spacing: 2px;
+	color: aqua;
+}
